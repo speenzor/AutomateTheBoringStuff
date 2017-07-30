@@ -1,10 +1,10 @@
 #! usr/bin/env python3
 #Saves and loads pieces of text to the clipboard.
 #python Chapter8extendMCB.py save <keyword> - Saves clipboard to keyword.
-#python Chapter8extendMCB.py mcb.pyw <keyword> - Loads keyword to clipboard.
-#python Chapter8extendMCB.py mcb.pyw list - Loads all keywords to clipboard.
-#python Chapter8extendMCB.py mcb.pyw delete <keyword> - Delete keywoard from the shelf
-#python Chapter8extendMCB.py mcb.pyw delete - Delete all keywords
+#python Chapter8extendMCB.py <keyword> - Loads keyword to clipboard.
+#python Chapter8extendMCB.py list - Loads all keywords to clipboard.
+#python Chapter8extendMCB.py delete <keyword> - Delete keywoard from the shelf
+#python Chapter8extendMCB.py delete - Delete all keywords
 
 import shelve, pyperclip, sys
 
