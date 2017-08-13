@@ -3,7 +3,7 @@
 #and lets the user add their own text anywhere ADJECTIVE, NOUN, ADVERB, or VERB
 #appears in the text file.
 
-import sys, os, pyperclip, shelve, re
+import sys, os, shelve, re
 
 #Read in text file
 madLibFile = open('/Users/spencercorwin/madLib.txt')
@@ -29,10 +29,10 @@ madLibShelf = shelve.open('madLibData')
 
 for i in range(len(madLibList)):
     if madLibList[i] == 'ADJECTIVE' or madLibList[i] == 'ADVERB':
-        print ('Please enter an ' + str(madLibList[i]) + ':') #fix string and lower
+        print ('Please enter an ' + str.lower(madLibList[i]) + ':')
         madLibShelf[str(i)]=str(input())
     else:
-        print ('Please enter a ' + str(madLibList[i]) + ':') #fix string and lower
+        print ('Please enter a ' + str.lower(madLibList[i]) + ':')
         madLibShelf[str(i)]=str(input())
 
 #Create new string to be placed in new file
