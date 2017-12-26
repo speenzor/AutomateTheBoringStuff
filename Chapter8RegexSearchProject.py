@@ -11,7 +11,7 @@ import os, re, pprint
 print ('Please provide the folder pathway:')
 pathway = input()
 while os.path.isdir(pathway) == False:
-    print ('Please provide the folder pathway:')
+    print ('Please provide a correct folder pathway:')
     pathway = input()
     if os.path.isdir(pathway) == True:
         print ('Pathway stored')
