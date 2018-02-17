@@ -14,13 +14,3 @@ def pw():
 		print('Strong password!')
 	else:
 		print('Weak password.')
-
-#Make a strip() function using regular expressions
-#If nothing in second argument then will remove whitespace
-def strip1(string, *remove):
-	re1=re.compile(r'\S.*\S')
-	re2=re.compile(r'[^('+re.escape(remove)+')].*[^('+re.escape(remove)+')]')
-	if remove == None:
-		print (re1.search(string).group())
-	else:
-		print (re2.search(string).group())
