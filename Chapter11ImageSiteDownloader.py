@@ -1,5 +1,7 @@
 #! usr/bin/env python3
-#Chapter 11 Image Site Downloader
+
+#Chapter 11 Challenge - Image Site Downloader
+
 #This script uses BeautifulSoup to download the first 20 images from a search of imgur.com
 import sys, requests, os, bs4
 
