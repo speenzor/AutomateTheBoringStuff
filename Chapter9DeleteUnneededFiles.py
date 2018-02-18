@@ -1,5 +1,7 @@
 #! usr/bin/env python3
-#Chapter 9 Deleting Unneeded Files
+
+#Chapter 9 Challenge - Deleting Unneeded Files
+
 #A program that walks through a folder tree and if a file in the directory
 #is greater than 100MB in size then it sends it to trash.
 
