@@ -1,5 +1,8 @@
 #! usr/bin/env python3
-#Chapter 8 Practive Project- Regex Search- This is a program that
+
+#Chapter 8 Practive Project - Regex Search
+
+#This is a program that
 #opens all .txt files in a folder and searches for any line that
 #matches a user-supplied regular expression. The results will print to
 #the screen
