@@ -1,3 +1,5 @@
+#Chapter 5 Challenge - List to Dictionary
+
 stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12}
 
 #This fuction takes a dictionary like 'stuff' and outputs a nice list
