@@ -1,5 +1,7 @@
 #! usr/bin/env python3
-#Chapter 11 Challenge: 2048
+
+#Chapter 11 Challenge - 2048
+
 #Opens Safari to play 2048 by going up, right, down, left until Game Over, then stops.
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
