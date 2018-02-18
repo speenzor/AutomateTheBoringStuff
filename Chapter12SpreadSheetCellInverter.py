@@ -1,5 +1,7 @@
 #! usr/bin/env python3
-#Chapter 12 Challenge: Spreadsheet Cell Inverter
+
+#Chapter 12 Challenge - Spreadsheet Cell Inverter
+
 #This program inverts the row and column of cells in a spreadsheet
 
 import os, openpyxl, pprint
