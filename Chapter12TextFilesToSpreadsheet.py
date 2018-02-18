@@ -1,5 +1,7 @@
 #! usr/bin/env python3
-#Chapter 12 Practice Problem: Text Files to Spreadsheet
+
+#Chapter 12 Challenge - Text Files to Spreadsheet
+
 #This program reads the contents of several text files and inserts the contents
 #into a spreadsheet, with one line of text per row. The lines of the first
 #text file will be in the cells of column A, the lines of the second text
