@@ -15,7 +15,7 @@ wb = openpyxl.Workbook()
 sheet = wb.active
 fileList = ['text1.txt','text2.txt']
 
-#Nested for loops to write to excel
+#Nested for loops to write to Excel
 for c in range(len(fileList)):
     #Create list of strings from the file
     file = open(os.path.join(os.getcwd(),fileList[c]))
