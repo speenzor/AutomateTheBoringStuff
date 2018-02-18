@@ -1,5 +1,7 @@
 #! usr/bin/env python3
-#Chapter 12 Challenge: Blank Row Inserter
+
+#Chapter 12 Challenge - Blank Row Inserter
+
 #This program takes two integers and a filename as command line arguments.
 #It then inserts blank rows in an Excel sheet based on an input row number.
 #The first integer is the row, the second integer is how many blank rows to
