@@ -1,4 +1,7 @@
-#Automate the Boring Stuff Chapter 14 Challenge- Excel-To-CSV Converter
+#! /usr/bin/env python3
+
+#Automate the Boring Stuff Chapter 14 Challenge - Excel-To-CSV Converter
+
 #This program reads all the Excel files in the current working directory and
 #outputs them as CSV files.
 
