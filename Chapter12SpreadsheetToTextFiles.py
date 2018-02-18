@@ -1,5 +1,7 @@
 #! usr/bin/env python3
-#Chapter 12 Practice Problem: Spreadsheet to Text Files
+
+#Chapter 12 Challenge - Spreadsheet to Text Files
+
 #This program reads the contents of the cells in an Excel spreadsheet
 #then writes the cells of the columns into a text file.
 
