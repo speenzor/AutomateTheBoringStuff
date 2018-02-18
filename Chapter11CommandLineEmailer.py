@@ -1,4 +1,7 @@
-#Chapter 11 Command Line Emailer
+#! /usr/bin/env python3
+
+#Chapter 11 Challenge - Command Line Emailer
+
 #This takes your web email info for Gmail then opens a brower, logins to Gmail
 #then composes an email with your recipient, subject, and body, then sends. This only
 #works if two-factor authentication is turned off. You can see some commented out elements-
