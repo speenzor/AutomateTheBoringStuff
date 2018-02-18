@@ -1,5 +1,7 @@
 #! usr/bin/env python3
-#Chapter 8 Practice Project- Create a Mad Lib program that reads in text files
+
+#Chapter 8 Practice Project - Mad Lib
+#Create a Mad Lib program that reads in text files
 #and lets the user add their own text anywhere ADJECTIVE, NOUN, ADVERB, or VERB
 #appears in the text file.
 
