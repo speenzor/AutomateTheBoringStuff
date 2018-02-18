@@ -1,5 +1,7 @@
 #! usr/bin/env python3
-#multiplicationTable.py - Multiplication Table Marker
+
+#Chapter 12 Challenge - Multiplication Table Marker
+
 #Takes the second argument of input, an integer, and makes a multiplication
 #table of that size in Excel.
 
