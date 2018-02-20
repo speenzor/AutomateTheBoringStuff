@@ -6,8 +6,7 @@ Automate the Boring Stuff Chapter 13 Challenge - PDF Paranoia
 This script will go through every PDF in a folder (and its subfolders) and
 encrypt the PDFs using a password privded on the command line. Save each
 encryped DPF with an _encrypted.pdf suffix added to the original filename.
-Before deleting the original file, the program will attempt to read and
-decrypt the file to ensure that it was encrypted correctly.
+It will then delete the unencrypted file.
 """
 
 import os
