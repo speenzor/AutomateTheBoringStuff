@@ -30,3 +30,5 @@ for folder,subfolders,filenames in os.walk(cwd):
             resultPDF = open(filename.split('.')[0]+'_encrypted.pdf', 'wb')
             pdfWriter.write(resultPDF)
             resultPDF.close()
+            #Delete the original file
+            send2trash.send2trash(filename)
