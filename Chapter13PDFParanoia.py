@@ -11,6 +11,7 @@ It will then delete the unencrypted file.
 
 import os
 import sys
+import send2trash
 import PyPDF2
 
 cwd = '/Users/spencercorwin/Desktop/decryptedPDFs'
