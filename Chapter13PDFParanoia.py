@@ -21,8 +21,7 @@ import PyPDF2
 
 cwd = '/Users/spencercorwin/Desktop/unencryptedPDFs'
 os.chdir(cwd)
-#password = sys.argv[1]
-password = 'pass'
+password = sys.argv[1]
 
 def encryptFolder(cwd, password):
 #Get the filename for each file in the given directory
