@@ -1,4 +1,4 @@
-# AutomateTheBoringStuff
+# Automate The Boring Stuff
 These files are my solutions to end-of-chapter Practice Projects in the free, online textbook Automate The Boring Stuff by Al Sweigart.
 
 I highly recommend this book for anyone learning to code for the first time.
